@@ -1,0 +1,21 @@
+{
+  "name": "slidev-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Slidev演示项目 - 软件构造实验三",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "@slidev/types": "^52.15.2",
+    "d3-dsv": "^3.0.1",
+    "debug": "^4.4.3",
+    "entities": "^8.0.0",
+    "playwright-core": "^1.60.0"
+  }
+}
